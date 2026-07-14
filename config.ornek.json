@@ -1,0 +1,42 @@
+{
+  "takim": {
+    "no": 42,
+    "ad": "BTU-Poyraz"
+  },
+  "mavlink": {
+    "aktif_profil": "sitl",
+    "profiller": {
+      "sitl": {
+        "tip": "udp",
+        "adres": "127.0.0.1",
+        "port": 14550
+      },
+      "usb": {
+        "tip": "serial",
+        "port": "COM3",
+        "baud": 57600
+      },
+      "radyo": {
+        "tip": "udp",
+        "adres": "192.168.1.50",
+        "port": 14550
+      }
+    }
+  },
+  "gorev_bilgisayari": {
+    "adres": "127.0.0.1",
+    "port": 6000,
+    "kamera_indeks": 0,
+    "sahte_mod": true
+  },
+  "sunucu": {
+    "adres": "127.0.0.1",
+    "port": 5000,
+    "kullanici": "test_takim",
+    "sifre": "test_sifre"
+  },
+  "arayuz": {
+    "logo_yolu": "assets/logo.png",
+    "harita_html": "assets/harita.html"
+  }
+}
